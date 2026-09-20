@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    padding: 30px;
+}
+
+h1 {
+    color: #222;
+}
+
+p {
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.model {
+    width: 430px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.model h1 {
+    font-size: 45px;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+.model p {
+    font-size: 22px;
+    margin: 0;
+}
+
+.model a {
+    color: #333;
+}
