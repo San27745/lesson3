@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>7g - Twitter Text Box</title>
+
+    <style>
+
+        .tweet-box {
+            width: 500px;
+            padding: 10px;
+
+            display: flex;
+            align-items: center;
+
+            font-family: Arial;
+            border: 1px solid #ddd;
+        }
+
+        .profile {
+            width: 45px;
+            height: 45px;
+
+            border-radius: 50%;
+
+            object-fit: cover;
+        }
+
+        .tweet-input {
+            flex: 1;
+
+            margin-left: 10px;
+
+            border: none;
+            outline: none;
+
+            font-size: 16px;
+        }
+
+        .tweet-button {
+            background-color: #1d9bf0;
+            color: white;
+
+            border: none;
+            border-radius: 20px;
+
+            padding: 10px 18px;
+
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="tweet-box">
+
+        <img
+            src="cat.jpg"
+            class="profile"
+            alt="Profile"
+        >
+
+        <input
+            class="tweet-input"
+            type="text"
+            placeholder="What's happening?"
+        >
+
+        <button class="tweet-button">
+            Tweet
+        </button>
+
+    </div>
+
+</body>
+
+</html>
