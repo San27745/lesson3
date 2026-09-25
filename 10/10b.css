@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Main container */
+
+.people {
+    width: 600px;
+}
+
+
+/* One person */
+
+.person {
+    width: 600px;
+    height: 90px;
+
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+
+/* Person image */
+
+.person-image {
+    width: 100px;
+}
+
+.person-image img {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+
+/* Person information */
+
+.person-info {
+    width: 350px;
+}
+
+
+/* Name */
+
+.name {
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+
+/* Description */
+
+.description {
+    color: gray;
+
+    font-size: 18px;
+
+    margin-bottom: 5px;
+}
+
+
+/* Popular */
+
+.popular {
+    color: gray;
+
+    font-size: 18px;
+}
+
+
+/* Button container */
+
+.button-container {
+    margin-left: auto;
+}
+
+
+/* Follow button */
+
+.button-container button {
+    background-color: #4285e8;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    padding: 12px 20px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}

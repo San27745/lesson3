@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 9e</title>
+
+    <style>
+        .tweet-box {
+            width: 500px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-picture {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+
+        .tweet-input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 18px;
+        }
+
+        .tweet-button {
+            background-color: #1da1f2;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="tweet-box">
+
+        <img
+            class="profile-picture"
+            src="cat.jpg"
+            alt="Profile"
+        >
+
+        <input
+            class="tweet-input"
+            type="text"
+            placeholder="What's happening?"
+        >
+
+        <button class="tweet-button">
+            Tweet
+        </button>
+
+    </div>
+
+</body>
+</html>
